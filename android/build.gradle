@@ -25,7 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 34
+    compileSdkVersion 30
     
     namespace = "com.whelksoft.flutter_native_timezone"
 
@@ -41,7 +41,7 @@ android {
         disable 'InvalidPackage'
     }
     kotlinOptions {
-        jvmTarget = 17
+        jvmTarget = "1.8"
     }
 }
 
