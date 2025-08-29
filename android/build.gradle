@@ -24,7 +24,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 33
+    
+    namespace = "com.example.flutter_native_timezone"
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
